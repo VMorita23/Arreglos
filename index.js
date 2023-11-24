@@ -11,7 +11,11 @@ console.log(numeros);
 
 // Ejercicio 2 --------------------------------------------------------->
 
+const creaLista = prompt("Ingresa varias palabras o números separadas por comas:");
 
+const palabras = creaLista.split(",");
+
+console.log(palabras);
 
 // Ejercicio 3 --------------------------------------------------------->
 
